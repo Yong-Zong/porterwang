@@ -13,19 +13,38 @@
         .top{
             width: 100%;
             margin: 0;
+            height: auto;
             background-image: url(pic/top_pic.jpg);
             background-size: 100%;
             background-repeat: no-repeat;
+            display: flex;
+        }
+        #headpic{
+            width: calc(100% - 20px);
+            max-width: 300px;
+            border-radius: 50%;
+            padding: 10px;
+        }
+        .pic{
+            width: 50%;
+        }
+        .text{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center; 
+            padding: 50px 0;
+            color: lightblue;
         }
     </style>
 </head>
 <body>
     <div class="top">
         <div class="pic">
-            <img src="">
+            <img id="headpic" src="pic/porter_wang_pic.jpg">
         </div>
         <div class="text">
-            <h1>Porter_WANG</h1>
+            <h2>王永宗_Porter</h2>
         </div>
     </div>
 
